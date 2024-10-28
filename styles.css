@@ -1,0 +1,44 @@
+* {
+    font-family: "Inter" ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+text-align: center;
+font-style: normal;
+font-weight: 600;
+font-size: 2.25rem;
+}
+h2{
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+header, main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color:#FFFFFF ;
+    padding: 50px 0;
+}
+main{
+    background-color: #F8FAFC;
+}
+div {
+    width: 800px;
+    padding: 20px 0;
+}
+ol, ul{
+    line-height: 35px;
+}
